@@ -1,8 +1,8 @@
-Trivandrum, India 
-
+Trivandrum, Kerala, India.
+PH: 0091 9496352735
 <div id="https://akhilbhas.github.io/cv/">
 <a href="akhilbhas@gmail.com">akhilbhas@gmail.com</a>
-| <a href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a>
+|<a href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a>
 </div>
 
 
