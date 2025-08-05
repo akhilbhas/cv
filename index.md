@@ -7,7 +7,7 @@ PH: 0091 9496352735
 
 
 ## Professional Summary  
-Embedded Software Engineer with over 13 years of experience designing, developing, and deploying Set Top Box (STB) platforms, embedded Linux systems, and multimedia frameworks. Deep expertise in C/C++, RDK-V, bootloaders, BSP, and device drivers. Proven track record in factory automation, vendor test suite (VTS) development, and Python-based test automation. Adept at Agile methodologies, client-facing delivery, and international collaboration including prior UK engagement.
+Embedded Software Engineer with over 13 years of experience designing, developing, and deploying Set Top Box (STB) platforms, embedded Linux systems, and multimedia frameworks. Deep expertise in C/C++, RDK-V, bootloaders, BSP, and device drivers. Proven track record in factory test suite , vendor test suite (VTS) development, And RDK Middleware and feature development. Adept at Agile methodologies, client-facing delivery, and international collaboration including prior UK engagement.
 
 ## Core Competencies  
 - Embedded C/C++, Linux Kernel & Application Development  
