@@ -1,5 +1,5 @@
-Trivandrum, Kerala, India.
-<br> PH: 0091 9496352735
+📍 Trivandrum, Kerala, India
+<br> 📞 +91-94963-52735
 <div id="https://akhilbhas.github.io/cv/">
 <a href="akhilbhas@gmail.com">akhilbhas@gmail.com</a>
 <a text-align="Right" href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a>
@@ -7,110 +7,119 @@ Trivandrum, Kerala, India.
 
 ---
 
-## Professional Summary  
+## Professional Summary
 
-Embedded Softwarae Developer with 13+ years of experiance. Worked with large scale systems and deployed Factory test firmware for Set top boxes. 6+ years in RDK HAL and middleware, Multimedia framework and pipelines,and Vendor Test Suite for RDK. 2 Years in IIoT and Real time OS and Industrial communication protocols. Travelled to Multiple Customer onsite offices in UK, Nehterlands, Unites States and China for sucessful requirement gathering and project deployments 
-
----
-
-## Core Competencies  
-- Embedded Linux 
-- C and C++ Progtamming
-- Linux Kernel driver & Application Development  
-- RDK-V, RDK-E HAL, Middleware Integration, 
-- G-Streamer Multimedia Frameworks, AV Pipelines  
-- Bootloaders, BSP Development, Board Bring-Up  
-- SoC Debugging (Broadcom, ARM, JTAG), System Profiling  
-- Git, Gerrit, Jira, Yocto, Agile Delivery  
-- Secure Boot, Serialization, Factory Testing Tools
-- Shell/Python script development.
+Senior Embedded Software Engineer with **14+ years of experience** across embedded firmware, Embedded Linux, middleware, HALs, and platform validation. Proven expertise in **RDK-V / RDK-E**, BSP customization, device tree enablement, concurrency debugging, and factory/field issue resolution. Strong background in **vendor integration, production test systems, and reliability engineering**. Seeking a **Senior Embedded / Platform Engineer** role in Germany.
 
 ---
 
-## Professional Experience  
+## Core Technical Skills
 
-### Specialist, Embedded Product Design  
-**Tata Elxsi — Kerala, India** | *Jul 2019 – Present*  
-- Vendor Test Suite: Part of the team developing Vendor Test Suite for RDK Hal Interface
-    * Lead for the offshroe center 5 member team 
-    * Developed test suitet for AV and Non AV HAL interfaces
-    * Created L2 L3 High Level Design docs for multiple modules
-    * SPOC for the Offshore center
-    * CUnit nad GTest based framework
-    * RAFT based Pyhton script development for test automation 
-- RDK Performance measurement and optimization: Lead team to measure and optimize the Performance of the stack for Low end platform
-    * SPOC and lead for the team of 4 members
-    * Collected the CPU and memory utilization for the platform for different scenarios
-    * Modified the firmware to limit the memory allocated for the platforms in devicetree parameters
-    * Analyze the data and suggest ways to reduce the memory usage 
-- RDK Gaming team SPOC and lead
-    * Coordinated tasks for Unity/Unreal game porting to RDK platforms
-    * Using camera and ML to control fruite ninja game on RDK TV platforms using hand gesture
-    * POC for unreal support in ARMv7 Platforms 
-    * Suggested Vulcan port for RDK to support gmae engines
-- RDK HAL and Middleware development : Developed Numerous RDK-V MIddleware features
-    * Developed End to End feature from RDKServices to HAL Layer for HDMI CEC, Diplay Settings and support for Multplie HDR modes and resolution for platforms
-    * Restructured the front panel module for RDK-E stack
-    * Worked with Deepsleep and powermanager modules
-    * Fixed numerous BUgs and crash issues reported in field in DeviceSettings modules 
-- Cloud DVR system test plan preperation.
-    * Understaind and prepare the test scenarios for the cVDR system
-    * Identify the streams and assets required to test the system.
+**Languages**
+C, C++, Python, Shell Scripting
 
-### Senior Engineer  
-**Kalycito Infotech — Coimbatore, India** | *2017 – 2019*  
-- openPOWERLINK based Egg Grader System: Onsite Coordinatior and POC development.
-    * One month Onsite deputation in Netherlands in customer site
-    * Coordinated the requirements captured from customer to offshore team for POC development
-    * Designed and developed the POC linux applicaiton and demoed to the customer usign the factory equipment.
+**Embedded & Linux**
+Embedded Linux, BSP, Device Tree (DTS/DTB), Bootloaders, RootFS, HALs
 
-- Porting Profibus PLC from baremetal to Embedded Linux based platform: Port the profibus firmware and application to Xilinx based platform.
-    * Lead and SPOC for the offhsore team of 5 members 
-    * Designed and developed the embedded linux user applicaiton to read and confiure the PLC device
-    * Ported the FPGA firmware to the Xilinx platform
-    * RT patches for the linux kernel for the PLC platform.
+**Platforms & Middleware**
+RDK-V, RDK-E, Thunder Plugins, TR-069, Device Settings, Closed Caption
 
-- OPC/UA - TSN performance measurement: Team lead to prepare and measure the realtime capability and preformance measurement for OPC/UA-TSN based protocol.
-- Performance measuremtn of Beagleborn black device for wireless communication: Measure the wifi capabiulity of the BBB development board.
+**Validation & Debugging**
+Vendor Test Suite (VTS), GTest, CUnit, journalctl, core dumps, JTAG
 
-### Specialist / Senior Engineer / Engineer, Embedded Product Design  
-**Tata Elxsi — Trivandrum, India** | *2011 – 2016*  
-- Factory Test Firmware: Design and develop the Factory Test Applicaiton Firmware
-    * During Last 6 months Acted as SPOC for the 10 member team 
-    * Planned and executed the new platform addition to the FTA  
-    * Designed and developed Serialisation feature for FTA
-- Service center firmware and applicaiton maintanance.
-    * Fixing bugs and adding feature to the Service center Serialization applicaiton.
-- Factory Test firmware to verify WiFi feature
-    * Added Wifi Testing feature to Factoy Test Application
-- Add XML based test report export in FTA
-    * Udapted existing VisualBased legacy applicaiton to add XML report generation.
-- Quick and Dirty Factiry test firmware and application to do serializtion for engineering builds
-- Falcon EYE:  Internal QoE applicaiton development.
+**Hardware & Interfaces**
+UART, SPI, I2C, GPIO, HDMI-CEC, Front Panel
 
-### Contractor – Embedded Software Engineer  
-**Sky UK PLC — London, UK** | *2014 – 2015*  
-- Factory Test Firmware and Applicaiton:
-    * Supported Factory team to debug and rectify the issues for the FTA firmware deployed
-    * Understanding the prefomrnace area and improve the production throughput
-    * Secure Flash firmware by updating mtd driver to add ioctl commands to lock and verify flash using the OTP registers
-    * Supporitng Engineerign team with quick serialization of damanged boxes/ engineering boxes.
-- Factory Visit to China for Hands on Debugging and Improvement.
-
+**Tools & Process**
+Git, Gerrit, Jira, Confluence, Agile / Scrum
 
 ---
 
-## Education  
-**B.Tech in Electronics and Communication Engineering**  
-University of Calicut, India | *2007 – 2011*
+## Professional Experience
+
+### Tata Elxsi Ltd. – India
+
+**Specialist – Embedded Product Design**
+**Jul 2019 – Present**
+
+* Developed and maintained **RDK-V and RDK-E middleware and HAL components**.
+* Implemented features across **Device Settings, Closed Caption, TR-069, Thunder plugins, and platform HALs**.
+* Designed and delivered **Vendor Test Suites (VTS)** for AV and Non-AV HALs, including **Front Panel and HDMI-CEC**.
+* Built **multi-level HAL validation** (L1 API, L2 functional, L3 external stimulus) to ensure vendor compliance with specifications.
+* Debugged **concurrency issues** in multithreaded event handling by introducing mutex-protected critical sections, eliminating intermittent hangs.
+* Resolved **platform-dependent crashes** caused by null service instances through defensive initialization and robust error handling.
+* Worked on **Comcast and Sky projects**, contributing to platform stability and vendor certification readiness.
 
 ---
 
-## Technical Skills  
-- **Languages:** C, C++, Python, Shell  
-- **Frameworks/Platforms:** RDK, Embedded Linux, Yocto, GStreamer  
-- **Tools:** Git, Gerrit, Jira, Confluence  
-- **Interfaces:** HDMI, HDCP, UART, SPI, I2C, GPIO  
-- **Protocols:** STB SDKs, AV, OPC-UA, Profibus  
+### Tata Elxsi Ltd. – India / UK / China
+
+**Senior Engineer → Specialist – Embedded Systems**
+**Sep 2011 – Dec 2016**
+
+* Developed **embedded firmware for factory production test systems (PTS)** including memory tests and device serialization.
+* Implemented and maintained **serialization frameworks** used in mass production.
+* Onsite at **Sky UK (Brentwood)**:
+
+  * Debugged factory firmware issues
+  * Implemented **flash locking mechanisms**
+  * Resolved critical production defects
+* Performed **onsite factory debugging in China**, resolving random device disconnections during serialization.
+* Led factory and service-center support teams after promotion to **Specialist**.
+* Fixed a critical **serialization defect** where serial numbers were written in ASCII-hex instead of binary, causing checksum failures:
+
+  * Corrected firmware logic
+  * Developed a **C# recovery tool** to repair already-serialized devices without rework
 
 ---
+
+### Kalycito Infotech Pvt. Ltd. – India / Netherlands / USA
+
+**Senior Engineer – Embedded Systems**
+**Mar 2017 – Mar 2019**
+
+* Enabled **custom Xilinx-based embedded Linux platforms** for industrial PLC applications.
+* Debugged peripheral detection issues on custom boards by correcting **device tree address mappings**.
+* Implemented **character drivers** to communicate with FPGA-based PROFIBUS firmware using `read`, `write`, and `ioctl`.
+* Ported **bare-metal PROFIBUS PLC** to Embedded Linux.
+* Worked on **OPC-UA / TSN** experiments and **openPOWERLINK-based industrial POC** for MOBA BV.
+* International exposure:
+
+  * Hannover Messe (Germany)
+  * POC deployment in Netherlands
+  * Industrial exhibition and project closure in USA
+
+---
+
+## Education
+
+**Bachelor of Technology – Electronics & Communication Engineering**
+University of Calicut, India | **2007 – 2011**
+
+**Final Year Project:**
+Laser-based Elephant Detection System for Indian Railways
+
+* Designed a safety-critical detection system using laser sensors and camera streaming to prevent wildlife–train collisions.
+
+---
+
+## Key Achievements
+
+* Delivered **production-grade fixes** that prevented factory delays and reduced manual rework.
+* Built **robust HAL validation frameworks** used for vendor certification.
+* Demonstrated strong ownership in **platform stability, debugging, and vendor integration**.
+* Trusted for **onsite, factory, and customer-facing escalations**.
+
+---
+
+## Languages
+
+* English – Fluent
+* German – Beginner (A1 planned)
+
+---
+
+## Availability & Visa
+
+* Ready to relocate within **2–3 months**
+* Eligible for **EU Blue Card (Germany)**
