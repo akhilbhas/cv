@@ -2,8 +2,8 @@
 <br> 📞 +91-94963-52735
 <div id="https://akhilbhas.github.io/cv/">
 <a href="akhilbhas@gmail.com">akhilbhas@gmail.com</a>
-<a text-align="Right" href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a>
-<a text-align="Right" href="https://github.com/akhilbhas">github</a>
+<a text-align="Right" href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a></div>
+<div><a text-align="Right" href="https://github.com/akhilbhas">github</a>
 </div>
 
 ---
