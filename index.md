@@ -3,123 +3,211 @@
 <div id="https://akhilbhas.github.io/cv/">
 <a href="akhilbhas@gmail.com">akhilbhas@gmail.com</a>
 <a text-align="Right" href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a>
+<a text-align="Right" href="https://github.com/akhilbhas">github</a>
 </div>
 
 ---
 
 ## Professional Summary
 
-Senior Embedded Software Engineer with **14+ years of experience** across embedded firmware, Embedded Linux, middleware, HALs, and platform validation. Proven expertise in **RDK-V / RDK-E**, BSP customization, device tree enablement, concurrency debugging, and factory/field issue resolution. Strong background in **vendor integration, production test systems, and reliability engineering**. Seeking a **Senior Embedded / Platform Engineer** role in Germany.
+Senior Embedded Software Engineer with **14+ years of experience** in **RDK, embedded Linux, media platforms, and BSP-level development**, specializing in **complex problem-solving, root-cause analysis, and system-level debugging** across multi-SoC environments. Proven expertise in **vendor certification, HAL validation, middleware development, and factory/pre-production issue resolution**, often acting as the go-to engineer for **critical escalations and certification blockers**. Experienced as both **individual contributor and team lead**, with strong capability in **mentoring engineers, coordinating offshore teams, and working directly with global customers** across Germany, UK, Netherlands, USA, and China. Actively seeking **Senior Embedded / RDK roles in Germany, EU, or UK** under Blue Card eligibility.
 
 ---
 
 ## Core Technical Skills
 
-**Languages**
-C, C++, Python, Shell Scripting
+**Programming Languages**  
+- C (Advanced)  
+- C++ (Advanced)  
+- Python (Intermediate)  
+- Shell Scripting (Intermediate)
 
-**Embedded & Linux**
-Embedded Linux, BSP, Device Tree (DTS/DTB), Bootloaders, RootFS, HALs
+**Embedded & OS**  
+- Embedded Linux  
+- RDK (RDK-V, RDK-E)  
+- BSP-level debugging  
+- HAL validation  
+- Middleware development  
 
-**Platforms & Middleware**
-RDK-V, RDK-E, Thunder Plugins, TR-069, Device Settings, Closed Caption
+**Frameworks & Middleware**  
+- Thunder / WPEFramework  
 
-**Validation & Debugging**
-Vendor Test Suite (VTS), GTest, CUnit, journalctl, core dumps, JTAG
+**Build & Tooling**  
+- Yocto  
+- BitBake  
+- CMake  
+- Make  
 
-**Hardware & Interfaces**
-UART, SPI, I2C, GPIO, HDMI-CEC, Front Panel
+**Debugging & Analysis**  
+- GDB  
+- Core dump analysis  
+- Crash log analysis  
+- JTAG  
+- Factory and field debugging  
 
-**Tools & Process**
-Git, Gerrit, Jira, Confluence, Agile / Scrum
+**Protocols & Interfaces**  
+- IPC  
+- Sockets  
+- HDMI  
+- IARM  
+- openPOWERLINK  
+- I2C, SPI, UART  
+
+**Version Control & ALM**  
+- Git  
+- Gerrit  
+- JIRA  
+- Jenkins  
+- GitHub  
 
 ---
 
 ## Professional Experience
 
-### Tata Elxsi Ltd. – India
-
-**Specialist – Embedded Product Design**
+### Tata Elxsi Ltd — Thiruvananthapuram, India  
+**Specialist – Embedded Product Design | RDK**  
 **Jul 2019 – Present**
 
-* Developed and maintained **RDK-V and RDK-E middleware and HAL components**.
-* Implemented features across **Device Settings, Closed Caption, TR-069, Thunder plugins, and platform HALs**.
-* Designed and delivered **Vendor Test Suites (VTS)** for AV and Non-AV HALs, including **Front Panel and HDMI-CEC**.
-* Built **multi-level HAL validation** (L1 API, L2 functional, L3 external stimulus) to ensure vendor compliance with specifications.
-* Debugged **concurrency issues** in multithreaded event handling by introducing mutex-protected critical sections, eliminating intermittent hangs.
-* Resolved **platform-dependent crashes** caused by null service instances through defensive initialization and robust error handling.
-* Worked on **Comcast and Sky projects**, contributing to platform stability and vendor certification readiness.
+---
+
+### Vendor Test Suite (VTS) for RDK Certification
+
+**Domain:** RDK, Media, HAL Validation, Certification  
+**Platforms:** x86, Amlogic, MediaTek, Realtek, Broadcom, Xilinx  
+
+**Responsibilities**
+- Designed and developed VTS applications in **C/C++** on top of **ut-core framework**
+- Implemented Python-based VTS control scripts using **ut-raft (RAFT framework)**
+- Developed and maintained test suites for:
+  - AVBuffer, Plane Control, Video Sink, AV Clock (L1/L2/L3)
+  - Front Panel and HDMI-CEC (L1/L2/L3)
+- Fixed and enhanced AV and non-AV modules across Audio/Video Sink, Decoder, and HAL layers
+- Led offshore teams and coordinated test execution across vendors and platforms
+
+**Key Achievements**
+- Fixed critical **AV pipeline L1 and L2 test failures** blocking RDK certification
+- Resolved **factory and pre-production blocking issues**, enabling platform readiness
+- Supported multi-SoC vendor validation for RDK compliance
 
 ---
 
-### Tata Elxsi Ltd. – India / UK / China
+### RDK Middleware Development
 
-**Senior Engineer → Specialist – Embedded Systems**
-**Sep 2011 – Dec 2016**
+**Duration:** Jan 2020 – Dec 2023  
+**Domain:** RDK Middleware, Media Platform, Thunder Plugins  
+**Role:** Individual Contributor & Offshore Lead  
 
-* Developed **embedded firmware for factory production test systems (PTS)** including memory tests and device serialization.
-* Implemented and maintained **serialization frameworks** used in mass production.
-* Onsite at **Sky UK (Brentwood)**:
+**Responsibilities**
+- Maintained and enhanced **device settings and media middleware components**
+- Fixed multiple **field-reported crashes and stability issues**
+- Added new features spanning **Thunder plugins to HAL layer**
+- Refactored middleware modules for RDK entertainment stack
 
-  * Debugged factory firmware issues
-  * Implemented **flash locking mechanisms**
-  * Resolved critical production defects
-* Performed **onsite factory debugging in China**, resolving random device disconnections during serialization.
-* Led factory and service-center support teams after promotion to **Specialist**.
-* Fixed a critical **serialization defect** where serial numbers were written in ASCII-hex instead of binary, causing checksum failures:
-
-  * Corrected firmware logic
-  * Developed a **C# recovery tool** to repair already-serialized devices without rework
+**Key Achievement**
+- Debugged, reproduced, and analyzed a **critical closed-caption certification issue**, preventing certification failure; appreciated by customer for rapid turnaround
 
 ---
 
-### Kalycito Infotech Pvt. Ltd. – India / Netherlands / USA
+### cDVR Test Suite – Feasibility & Requirements
 
-**Senior Engineer – Embedded Systems**
+**Duration:** Jul 2019 – Dec 2019  
+**Domain:** RDK  
+**Role:** Team Lead  
+
+**Responsibilities**
+- Led offshore team for **cDVR cloud platform test suite feasibility study**
+- Analyzed requirements and prepared detailed **test case documentation**
+- Coordinated early validation strategy for future test suite development
+
+---
+
+### Parallel Technical Leadership & Customer Support
+
+**Duration:** Aug 2022 – Dec 2023  
+
+- Provided **technical leadership and delivery support** across parallel customer projects
+- Managed offshore team of ~5 engineers; planned work and assigned JIRA tasks
+- Reviewed outputs and supported **customer-facing technical presentations**
+- Identified **memory constraints on low-end hardware** and proposed optimization strategies enabling stable application performance
+
+---
+
+## Previous Experience
+
+### Kalycito Infotech Pvt Ltd — Coimbatore, India  
+**Senior Engineer**  
 **Mar 2017 – Mar 2019**
 
-* Enabled **custom Xilinx-based embedded Linux platforms** for industrial PLC applications.
-* Debugged peripheral detection issues on custom boards by correcting **device tree address mappings**.
-* Implemented **character drivers** to communicate with FPGA-based PROFIBUS firmware using `read`, `write`, and `ioctl`.
-* Ported **bare-metal PROFIBUS PLC** to Embedded Linux.
-* Worked on **OPC-UA / TSN** experiments and **openPOWERLINK-based industrial POC** for MOBA BV.
-* International exposure:
+**Key Projects**
+- CTI PROFIBUS-based PLC porting from bare metal app to Xilinx BSP linux
+- openPOWERLINK-based egg grader platform  
+  (migration from proprietary POWERLINK implementation)
 
-  * Hannover Messe (Germany)
-  * POC deployment in Netherlands
-  * Industrial exhibition and project closure in USA
+**Technical Contribution**
+- Analyzed and optimized **round-trip latency** in openPOWERLINK data path by identifying stack-level bottlenecks
+
+**Notable Outcome**
+- Represented company in **customer interactions and industrial exhibitions**, including **Hannover Messe (Germany)**
+- Travelled to **USA, Netherlands, and Germany** for customer meetings and demos
+
+---
+
+### Tata Elxsi Ltd — Thiruvananthapuram, India  
+**Engineer → Senior Engineer → Specialist**  
+**Sep 2011 – Dec 2016**
+
+**Key Project**
+- Factory Test Software & Firmware for production-line quality control
+
+**Technical Contribution**
+- Implemented **flash locking mechanism during serialization** by enhancing MTD driver and adding a custom character driver
+
+**Notable Outcome**
+- Worked **1 year onsite in the UK** supporting factory test teams
+- Travelled to **China factory locations** to debug and resolve live production issues
 
 ---
 
 ## Education
 
-**Bachelor of Technology – Electronics & Communication Engineering**
-University of Calicut, India | **2007 – 2011**
-
-**Final Year Project:**
-Laser-based Elephant Detection System for Indian Railways
-
-* Designed a safety-critical detection system using laser sensors and camera streaming to prevent wildlife–train collisions.
+**Bachelor of Technology (B.Tech)**  
+**Electronics & Communication Engineering**  
+University of Calicut, India — **2011**  
+(Full-time, on-campus)
 
 ---
 
-## Key Achievements
+## Leadership & Collaboration
 
-* Delivered **production-grade fixes** that prevented factory delays and reduced manual rework.
-* Built **robust HAL validation frameworks** used for vendor certification.
-* Demonstrated strong ownership in **platform stability, debugging, and vendor integration**.
-* Trusted for **onsite, factory, and customer-facing escalations**.
+- Individual Contributor and Team Lead  
+- Mentored junior engineers  
+- Vendor and customer interaction  
+- Factory, pre-production, and field issue handling  
+- Global onsite and multicultural team experience  
 
 ---
 
 ## Languages
 
-* English – Fluent
-* German – Beginner (A1 planned)
+- English — Professional  
 
 ---
 
-## Availability & Visa
+## Relocation & Availability
 
-* Ready to relocate within **2–3 months**
-* Eligible for **EU Blue Card (Germany)**
+- Open to relocation: **Germany, EU, UK**
+- Notice period: As per company policy
+- Visa status: Non-EU (Blue Card eligible)
+
+---
+
+## Professional Traits
+
+- Analytical  
+- Hands-on  
+- Problem-solving  
+- Reliable  
+
+---
+
+
