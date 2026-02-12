@@ -1,65 +1,68 @@
-📍 Trivandrum, Kerala, India
-<br> 📞 +91-94963-52735
-<div id="https://akhilbhas.github.io/cv/">
-<a href="akhilbhas@gmail.com">akhilbhas@gmail.com</a>
-<a text-align="Right" href="https://www.linkedin.com/in/akhilbabysarada/">LinkedIn</a></div>
-<div><a text-align="Right" href="https://github.com/akhilbhas">github</a>
-</div>
+---
+layout: page
+permalink: /cv/
+title: Akhil Baby Sarada
+---
 
-Relocation: Willing to relocate to Germany / EU (Visa required)\
-Nationality: Indian
+# Akhil Baby Sarada
+
+**Senior Embedded Software Engineer -- Multimedia Platform (RDK)**
+Thiruvananthapuram, Kerala, India
+Email: akhilbabysarada@gmail.com
+LinkedIn: https://www.linkedin.com/in/akhilbabysarada
+GitHub: https://github.com/akhilbhas
+
+Relocation: Germany / EU (Visa required)
 
 ------------------------------------------------------------------------
 
 ## Professional Summary
 
-Senior Embedded Software Engineer with 13 years of experience in
-embedded systems and 11 years in multimedia platforms, specializing in
-RDK-based STB and TV devices. Strong background in embedded Linux,
-middleware development, HAL abstraction, platform integration, and
-production-ready feature delivery. Experienced in working with
-international customers and cross-functional teams to deliver stable and
-compliant multimedia platforms.
+Senior Embedded Software Engineer with 13 years of experience in embedded systems and 11 years in multimedia platforms. Specialized in RDK-V and RDK-E based STB and TV platforms, embedded Linux, middleware development, HAL abstraction, and production-grade system integration.
+
+Contributed to large-scale Tier-1 deployments including Sky Q platform supporting 2.5M+ device production.
+------------------------------------------------------------------------
+
+## Core Expertise
+
+-   Embedded Linux (Yocto, Buildroot)
+-   RDK-V and RDK-E Multimedia Platforms
+-   Middleware Development and HAL Abstraction
+-   Vendor Test Suite (VTS) -- L1, L2, L3 Implementation
+-   Production Security (Flash Locking, Factory Test Support)
+-   Platform Integration and Certification Support
+-   Technical Leadership and Cross-functional Coordination
 
 ------------------------------------------------------------------------
 
 ## Technical Skills
 
-### Programming Languages
+### Programming
 
--   C -- Expert\
--   C++ -- Advanced\
--   Python -- Working knowledge\
--   Shell / Bash -- Working knowledge
+-   C (Expert)
+-   C++ (Advanced)
+-   Python (Working knowledge)
+-   Shell scripting (Working knowledge)
 
-### Embedded Platforms & Operating Systems
+### Platforms and Architecture
 
--   Embedded Linux (Yocto, Buildroot)\
--   RDK-V (Video -- STB / TV platforms)\
--   RDK-E (Entertainment architecture for STB / TV)\
--   Preemptive Linux for industrial communication systems
+-   RDK-V (STB / TV)
+-   RDK-E (Entertainment Architecture)
+-   Embedded Linux
+-   Middleware Layer Design
+-   HAL Abstraction and Validation
 
-### Multimedia Platform Expertise
+### Hardware and Interfaces
 
--   RDK middleware development and integration\
--   HAL abstraction and validation\
--   Device settings, power management, LED control\
--   Vendor Test Suite (VTS) implementation\
--   End-to-end feature ownership across application, middleware, HAL,
-    and Linux layers\
--   Secure flash locking and production image hardening
-
-### Hardware & Interfaces
-
--   SoCs: Broadcom, STMicroelectronics, Xilinx, Realtek, Amlogic\
+-   SoCs: Broadcom, STMicroelectronics, Xilinx, Realtek, Amlogic
 -   Interfaces: SPI, Ethernet, GPIO
 
-### Tools & Workflow
+### Tools
 
--   Debugging: GDB, JTAG, Wireshark, kernel logs\
--   Version Control: Git, Gerrit, GitHub\
--   CI/CD: Jenkins\
--   Build Systems: Yocto (BitBake), Buildroot
+-   GDB, JTAG, Wireshark
+-   Git, Gerrit, GitHub
+-   Jenkins CI
+-   BitBake (Yocto), Buildroot
 
 ------------------------------------------------------------------------
 
@@ -67,92 +70,77 @@ compliant multimedia platforms.
 
 ### Tata Elxsi Ltd
 
-Specialist -- Embedded Product Design (RDK-V, RDK-E, MCV)\
-Thiruvananthapuram, India\
-July 2019 -- Present
+**Specialist -- Embedded Product Design (RDK-V, RDK-E, MCV)**
+July 2019 -- Present | India
 
-Domain: STB and Smart TV Multimedia Platforms
-
-**Responsibilities** - Design, develop, and validate features for
-RDK-based multimedia platforms\
-- Refactor and optimize components for RDK-E architecture\
-- Implement Vendor Test Suite (VTS) components for HAL layers\
-- Participate in Scrum ceremonies and direct customer interactions\
-- Manage offshore team dependencies and technical deliverables\
-- Mentor and guide engineers and interns
-
-**Key Contributions** - Delivered multiple production-grade features in
-Device Settings module\
-- Refactored and stabilized Power Manager module\
-- Implemented VTS Level-3 test suites for plane control module\
-- Performed root-cause analysis and resolved critical platform issues\
-- Ensured platform readiness for vendor and customer compliance
+-   Designed and delivered multimedia platform features for Tier-1 operators
+-   Refactored Power Manager and Device Settings modules for RDK-E migration
+-   Implemented Vendor Test Suite (VTS) Level-3 validation for HAL components
+-   Resolved certification-blocking middleware defect within 48 hours
+-   Reduced field crash issues through root-cause analysis and stabilization
+-   Led 10 engineers across parallel initiatives (RDK Gaming, Memory-Optimized Stack for 2GB RAM, Middleware)
+-   Led 8-member offshore team for VTS project
 
 Clients: RDKCentral, Comcast, Sky
 
 ------------------------------------------------------------------------
 
-### Kalycito Infotech Pvt. Ltd.
+### Kalycito Infotech Pvt. Ltd. 
 
-Senior Embedded Engineer -- R&D\
-Coimbatore, Tamil Nadu, India\
-March 2017 -- March 2019
+**Senior Embedded Engineer -- R&D**
+March 2017 -- March 2019 | India
 
-Domain: Industrial IoT and Industrial Communication
+-   Led end-to-end PROFIBUS PLC porting from bare-metal to Embedded Linux
+-   Implemented openPOWERLINK migration proof-of-concept
+-   Delivered international industrial automation projects
+-   Owned architecture, development, integration, and customer handover
 
-**Responsibilities** - Led small engineering teams for embedded Linux
-projects\
-- Owned end-to-end development of PROFIBUS PLC porting to Linux\
-- Developed proof-of-concept solutions for industrial automation systems
-
-**Key Achievements** - Ported PROFIBUS-based PLC application from
-bare-metal to Embedded Linux for CTI\
-- Implemented POC migrating proprietary POWERLINK to openPOWERLINK
-stack\
-- Delivered project including architecture, integration, and customer
-handover
-
-International Exposure: - USA -- Project handover\
-- Germany -- Hannover Messe showcases\
-- Netherlands -- POC development and delivery
+International Exposure: 
+- USA (Project handover) 
+- Germany (Hannover Messe) 
+- Netherlands (POC implementation)
 
 ------------------------------------------------------------------------
 
 ### Tata Elxsi Ltd
 
-Engineer → Senior Engineer → Specialist\
-India / United Kingdom / China\
-September 2011 -- December 2016
+**Engineer → Senior Engineer → Specialist**
+September 2011 -- December 2016 | India / UK / China
 
-Domain: Embedded Multimedia Platform Development
-
--   Embedded C and Linux development for multimedia platforms\
--   Firmware integration and deployment for customer devices\
--   Onsite customer collaboration for firmware stabilization and
-    release\
--   Factory-level debugging and issue resolution during manufacturing
-
-International Exposure: - United Kingdom -- 1 year deputation\
-- China (Shenzhen) -- Factory debugging support
+-   Embedded C and Linux development for multimedia platforms
+-   Contributed to 2.5M+ Sky Q device production via factory test and serialization support
+-   Onsite firmware deployment and support (UK -- 1 year deputation)
+-   Factory-level debugging and issue resolution (Shenzhen, China)
+-   Platform stabilization and release management
 
 ------------------------------------------------------------------------
 
 ## Education
 
-Bachelor of Technology (B.Tech)\
-(Please update branch, university, and graduation year)
+**Bachelor of Technology (B.Tech)**
+Electronics and Communication Engineering
+NSS College of Engineering, Palakkad, Kerala, India
+University of Calicut, 2011
+
+Final Year Project:
+Laser-based perimeter detection system for identifying elephant
+crossings on railway tracks
 
 ------------------------------------------------------------------------
 
-## Languages
+## International Exposure
 
-English -- Professional proficiency\
-German -- Beginner (to be updated upon progress)
+-   United Kingdom -- 1 year onsite
+-   Germany -- Multiple visits
+-   Netherlands -- 1 month technical deployment
+-   USA -- 2 weeks Project handover
+-   China -- 2 weeks Factory debugging and production support
 
 ------------------------------------------------------------------------
 
 ## Target Roles
 
--   Senior Embedded Software Engineer\
--   Embedded Multimedia Platform Engineer\
+-   Senior Embedded Software Engineer
+-   Embedded Multimedia Platform Engineer
 -   Senior Embedded Linux Engineer
+-   RDK Platform Engineer
