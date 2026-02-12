@@ -1,7 +1,24 @@
-remote_theme: pages-themes/minimal@v0.2.0
+
+title: "Akhil Baby Sarada"
+description: "Senior Embedded Software Engineer – Multimedia Platform (RDK)"
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-- jekyll-remote-theme
-title: Akhil Baby Sarada
-description: Senior Embedded Software / Platform Engineer – Set Top Box | Embedded Linux | RDK Specialist
-show_downloads: false
-google_analytics: false
+  - jekyll-remote-theme
+
+author:
+  name: "Akhil Baby Sarada"
+  email: "akhilbabysarada@gmail.com"
+  bio: "Senior Embedded Software Engineer specializing in RDK-based multimedia platforms."
+  location: "Germany (Relocation Ready)"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/akhilbabysarada"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/akhilbhas"
+
+minimal_mistakes_skin: "default"
+
+markdown: kramdown
+permalink: /:categories/:title/
