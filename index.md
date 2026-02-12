@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /cv/
-title: Akhil Baby Sarada
+title: "Akhil Baby Sarada"
 ---
 
 # Akhil Baby Sarada
